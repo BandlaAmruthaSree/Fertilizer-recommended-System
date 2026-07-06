@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Fertilizer Recommendation</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static',filename='css/style.css')}}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Fertilizer Recommendation System</h1>
+
+<form action="/predict" method="POST">
+
+<input type="number" name="temperature" placeholder="Temperature" required>
+
+<input type="number" name="humidity" placeholder="Humidity" required>
+
+<input type="number" name="moisture" placeholder="Moisture" required>
+
+<input type="number" name="soil" placeholder="Soil Type" required>
+
+<input type="number" name="crop" placeholder="Crop Type" required>
+
+<input type="number" name="nitrogen" placeholder="Nitrogen" required>
+
+<input type="number" name="potassium" placeholder="Potassium" required>
+
+<input type="number" name="phosphorous" placeholder="Phosphorous" required>
+
+<button>Predict</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
