@@ -1,4 +1,3 @@
-# Fertilizer-recommended-System
 # Fertilizer Recommendation System
 
 ## Project Description
